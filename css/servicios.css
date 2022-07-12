@@ -1,0 +1,255 @@
+.sect_one{
+    width: 90%;
+    height: 68rem;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.start_banner{
+    width: 75rem;
+    margin-top: 15rem;
+    color: var(--color3);
+}
+
+.our_services{
+    font-size: var(--title1);
+    font-weight: 600;
+}
+
+.presentacion{
+    margin-top: 2rem;
+    font-size: var(--text0);
+}
+
+.item1{
+    background-image: url(http://uploads.metropoles.com/wp-content/uploads/2021/09/20094504/caes_e_gatos_widexl.jpg);
+    background-size: cover;
+    width: 70rem;
+    height: 43rem;
+    margin-top: 10rem;
+    border-radius: 30rem 30rem;
+}
+
+.sect_two{
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+}
+
+.servicios{
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicio_1{
+    width: 19rem;
+    height: 19rem;
+    margin-right: 7rem;
+
+    border-radius: 50%;
+    background-color: var(--color6);
+}
+
+.servicio_1 img{
+    width: 8rem;
+    margin-top: 4rem;
+}
+
+.kind_service{
+    font-size: var(--text1);
+    font-weight: 600;
+
+}
+
+.servicio_2{
+    width: 19rem;
+    height: 19rem;
+    margin-right: 7rem;
+
+    border-radius: 50%;
+    background-color: var(--color6);
+}
+
+.servicio_2 img{
+    width: 8rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.servicio_3{
+    width: 19rem;
+    height: 19rem;
+    margin-right: 7rem;
+
+    border-radius: 50%;
+    background-color: var(--color6);
+}
+
+.servicio_3 img{
+    width: 8rem;
+    margin-top: 4rem;
+}
+
+.servicio_4{
+    width: 19rem;
+    height: 19rem;
+    margin-right: 7rem;
+
+    border-radius: 50%;
+    background-color: var(--color6);
+}
+
+.servicio_4 img{
+    width: 8rem;
+    margin-top: 4rem;
+}
+
+.sect_three{
+    width: 90%;
+    height: 10rem;
+    margin: auto;
+}
+
+.kind_pet{
+    margin-top: 12rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dog{
+    background-color: var(--color1);
+    width: 27rem;
+    height: 6rem;
+    margin: 2rem;
+    border-radius: 50rem 50rem;
+
+    font-size: var(--text1);
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kind_pet img{
+    width: 4rem;
+    margin: 1rem;
+}
+
+.cat{
+    background-color: var(--color1);
+    width: 27rem;
+    height: 6rem;
+    margin: 2rem;
+    border-radius: 50rem 50rem;
+
+    font-size: var(--text1);
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect_four{
+    width: 90%;
+    height: 82rem;
+    margin: auto;
+}
+
+.petshop{
+    margin-top: 12rem;
+    width: 100%;
+    height: 76.6rem;
+
+    background-color: var(--color6);
+    border-radius: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop_title{
+    margin-top: 6rem;
+
+    font-size: var(--title2);
+    font-weight: 700;
+}
+
+.petshop ul{
+    font-size: var(--text0);
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.petshop li{
+    padding: 4rem;
+}
+
+.products{
+    width: 90%;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.products img{
+    margin-top: 1.5rem;
+}
+
+.product_1{
+    width: 30rem;
+    height: 40rem;
+
+    font-size: var(--text2);
+
+    border-radius: 7rem;
+    background-color: #fff;
+}
+
+.img2{
+    width: 25rem;
+}
+
+.img3{
+    width: 22.5rem;
+}
+
+.product_1 div{
+    padding-bottom: 0.5rem;
+}
+
+.cart{
+    width: 17rem;
+    height: 3.5rem;
+    margin: auto;
+    padding-top: 0.5rem;
+
+    font-size: var(--text3);
+    border-radius: 3rem;
+    background-color: var(--color1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all_products{
+    margin-top: 4rem;
+
+    font-size: var(--text1);
+    font-weight: 600;
+}

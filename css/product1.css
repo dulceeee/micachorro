@@ -1,0 +1,147 @@
+.sect_one{
+    width: 80%;
+    height: 78rem;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.start_banner{
+    width: 75rem;
+    margin-top: 15rem;
+    padding: 4rem;
+    color: var(--color3);
+}
+
+.name_product{
+    font-size: var(--title2);
+    font-weight: 600;
+}
+
+.precio{
+    margin-top: 2rem;
+    font-size: var(--text0);
+    font-weight: 500;
+}
+
+.info{
+    margin-top: 2rem;
+    font-size: var(--text1);
+}
+
+ul{
+    margin-top: 2rem;
+}
+
+li{
+    font-size: var(--text1);
+    list-style-position: inside;
+}
+
+.item1{
+    background-image: url(https://cdn.shopify.com/s/files/1/0269/3113/4507/products/1_78f60e87-09ca-4a4a-b9eb-9fd60a6de773.png?v=1651897019);
+    background-size: contain;
+    width: 60rem;
+    height: 60rem;
+    margin-top: 10rem;
+    border-radius: 30rem 30rem;
+}
+
+.carrito{
+    width: 54.5rem;
+    height: 5rem;
+    margin-top: 3rem;
+    padding: 0.1rem;
+
+    font-size: var(--text1);
+    font-weight: 600;
+    color: #fff;
+
+    background-color: var(--color1);
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect_two{
+    width: 80%;
+    height: 45rem;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.banner_info{
+    width: 100%;
+    padding: 4rem;
+
+    text-align: justify;
+    color: var(--color3);
+}
+
+.title_description{
+    font-size: var(--text0);
+    font-weight: 600;
+}
+
+.sect_three{
+    width: 75%;
+    height: 56rem;
+    margin: auto;
+}
+
+.products{
+    width: 100%;
+    margin-top: 4rem;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.products img{
+    margin-top: 1.5rem;
+}
+
+.product_1{
+    width: 30rem;
+    height: 40rem;
+
+    font-size: var(--text2);
+
+    border-radius: 7rem;
+    background-color: #fff;
+}
+
+.img2{
+    width: 25rem;
+}
+
+.img3{
+    width: 22.5rem;
+}
+
+.product_1 div{
+    padding-bottom: 0.5rem;
+}
+
+.cart{
+    width: 17rem;
+    height: 3.5rem;
+    margin: auto;
+    padding-top: 0.5rem;
+
+    font-size: var(--text3);
+    border-radius: 3rem;
+    background-color: var(--color1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

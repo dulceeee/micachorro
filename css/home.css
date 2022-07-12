@@ -1,42 +1,10 @@
-header{
-    width: 90%;
-    height: 8rem;
-    margin: 1rem 8rem;
-    padding: 4rem;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 0.1rem solid var(--color4);
-
-}
-
-nav a{
-    text-decoration: none;
-    color: var(--color3);
-    font-size: var(--text2);
-    padding: 2rem;
-    
-}
-
-.logo{
-    display: flex;
-    align-items: center;
-}
-
-.logo img{
-    height: 6rem;
-    margin-right: 1.5rem;
-}
-
-.company-name{
-    color: var(--color3);
-    font-size: var(--title2);
-}
-
 section{
+    border-bottom: 0.1rem solid var(--color4);
+}
+
+.sect_one{
     width: 90%;
-    height: 68.5rem;
+    height: 75rem;
     margin: auto;
 
     display: flex;
@@ -79,6 +47,15 @@ section{
     justify-content: center;
 }
 
+.contacto a{
+    text-decoration: none;
+    color: var(--color3);
+}
+
+.contacto i{
+    padding-left: 1rem;
+}
+
 .redes{
     width: 20rem;
     height: 6rem;
@@ -89,6 +66,10 @@ section{
 
     display: flex;
     align-items: center;   
+}
+
+.redes a{
+    text-decoration: none;
 }
 
 .redes i{
@@ -122,5 +103,284 @@ section{
     height: 40rem;
     margin-top: 6rem;
     border-radius: 30rem 30rem;
-    background-color: aliceblue;
+}
+
+.sect_two{
+    width: 90%;
+    height: 95rem;
+    margin: auto;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div .img1{
+    width: 29rem;
+    height: 17rem;
+    margin-top: 12rem;
+
+    border-radius: 15rem 15rem;
+
+    background-image: url(https://s1.best-wallpaper.net/wallpaper/m/1705/Husky-dog-blue-background_m.webp);
+    background-size:cover ;
+}
+
+div .frase_banner{
+    margin-top: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company_nombre{
+    font-size: var(--text0);
+}
+
+.phrase{
+    font-size: var(--title2);
+    font-weight: 700;
+}
+
+div .imagens2{
+    width: 32rem;
+    margin-top: 12rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+div .img2{
+    width: 17rem;
+    height: 17rem;
+
+    border-radius: 50%;
+
+    background-image: url(https://img.freepik.com/free-photo/funny-gray-kitten-smiling-dog-with-beautiful-big-eyes-trendy-blue-paper_253512-60.jpg?w=1380);
+    background-position: 10% 90%;
+    background-size:cover ;
+}
+
+div .img3{
+    width: 17rem;
+    height: 17rem;
+
+    position: absolute;
+    right: 11.5rem;
+
+    border-radius: 50%;
+
+    background-image: url(https://img.freepik.com/free-photo/funny-gray-kitten-smiling-dog-with-beautiful-big-eyes-trendy-blue-paper_253512-60.jpg?w=1380);
+    background-position: 95% 5%;
+    background-size:cover ;
+}
+
+.fact{
+    width: 100%;
+    height: 42rem;
+    margin-top: 12rem;
+
+    border-radius: 12rem 12rem;
+    background-color: var(--color6);
+}
+
+.title_sabias{
+    position: absolute;
+    top: 130rem;
+    left: 27rem;
+
+    font-size: var(--title2);
+    font-weight: 700;
+}
+
+.img4{
+    width: 24rem;
+    height: 27rem;
+
+    position: absolute;
+    top: 136rem;
+    left: 27rem;
+
+    border-radius: 9rem;
+    background-image: url(https://gatosygatitos.net/wp-content/uploads/2019/10/gatitos-bebe.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+
+.dato{
+    position: absolute;
+    top: 140rem;
+    left: 61rem;
+
+    font-size: var(--text0);
+    text-align: center;
+}
+
+.sect_three{
+    width: 90%;
+    height: 104rem;
+    margin: auto;
+}
+
+.marcas_title{
+    margin-top: 12rem ;
+
+    font-size: var(--title2);
+    font-weight: 700;
+    text-align: center;
+}
+
+.marcas{
+    padding: 10rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.marca0{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://www.monellocolombia.com/wp-content/uploads/2018/07/select.png);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca1{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://i0.wp.com/www.russellfeedandsupply.com/wp-content/uploads/2017/08/purina.png?resize=300%2C300&ssl=1);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca2{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://agenciakiwee.com.br/wp-content/uploads/2019/01/logo_pedigree_brilho.png);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca3{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://pnptc-media.s3.amazonaws.com/images/hills.max-500x500.png);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca4{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://assets.nationbuilder.com/backcountryhunters/pages/9092/meta_images/original/1694877.png?1608138864);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca5{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://nutrisourcepetfoods.com/wp-content/uploads/2019/07/NS_Logo2019.png);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca6{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://images-americanas.b2w.io/produtos/11692470/imagens/whiskas-sache-para-gatos/11692463_1_large.jpg);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca7{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://www.advantagepetcare.com.au/sites/g/files/adhwdz311/files/2019-09/seresto_logo.png);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca8{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://allaboutcats.com/wp-content/uploads/2021/07/Frontline-Plus.png);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca9{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://seekvectorlogo.net/wp-content/uploads/2018/11/simparica-sarolaner-chewables-vector-logo.png);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca10{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://iconape.com/wp-content/files/rx/182201/svg/182201.svg);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marca11{
+    width: 25rem;
+    height: 25rem;
+
+    margin-bottom: 3.5rem;
+
+    background-image: url(https://www.invetsa.com/bolivia/wp-content/uploads/2020/09/Credelio.png);
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;
 }
