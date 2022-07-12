@@ -8,7 +8,9 @@
 
     <!-- Archivos CSS -->
     <link rel="stylesheet" href="css/configuracion.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <!-- Fonts Files -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +19,8 @@
 
     <!-- Links vectores -->
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
 
 </head>
 <body>
@@ -30,16 +33,19 @@
         </div>
 
         <nav>
-            <a href="" class="home">Home</a>
+            <a href="index.html" class="home">Home</a>
             <a href="">¿Quiénes somos?</a>
-            <a href="">Servicios</a>
+            <a href="servicios.html">Servicios</a>
             <a href="">Sucursales</a>
-            <a href="">Sing Up</a>
+            <a href="" class="singup">
+                Sing Up
+                <i class="fi fi-rr-sign-out"></i>
+            </a>
         </nav>
 
     </header>
 
-    <section>
+    <section class="sect_one">
         <div class="presentacion">
             <p class="slogan">Nos preocupamos <br> por el
                 cuidado de <br> de tus mascotas</p>
@@ -47,13 +53,26 @@
                 amarlos es un privilegio.</p>
             <div class="enlaces">
                 <div class="contacto">
-                    Contáctanos ↗
-                </div>
-                <div class="redes">
-                    Síguenos
+                    <a href="tel:52998343">
+                        Contáctanos 
+                        <i class="fi fi-rr-phone-call"></i>
+                    </a>
+
+            </div>
+
+            <div class="redes">
+                Síguenos
+                <a href="https://www.instagram.com/instagram/">
                     <i class="fi fi-brands-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/spacaninomicachorro">
                     <i class="fi fi-brands-facebook"></i>
-                </div>
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=50252998343&text&app_absent=0">
+                    <i class="fi fi-brands-whatsapp"></i>
+                </a>
+                    
+            </div>
             </div>
         </div>
 
@@ -63,9 +82,84 @@
             <div class="item2"></div>
         </div>
     </section>
-    
+
+    <section class="sect_two">
+        <div class="banner">
+            <div class="img1"></div>
+            <div class="frase_banner"> 
+                <p class="company_nombre"> Veterinaria & Grooming Mi Cachorro</p>
+                <p class="phrase">Trabajando por el cuidado</p>
+                <p class="phrase">de tus mascotas</p>
+            </div>
+            <div class="imagens2">
+                <div class="img2"></div>
+                <div class="img3"></div>
+            </div>
+        </div>
+
+        <div class="fact">
+            <div class="title_sabias">
+                <p> ¿Sabías esto?</p>
+            </div>
+            <div>
+                <div class="img4"></div>
+                <p class="dato">Quizás alguna vez te has preguntado por qué una gata <br>
+                tiene en un mismo parto gatitos tan diferentes. La <br>
+                respuesta es que una gata puede quedar preñada de <br> 
+                varios machos en el mismo celo, de ahí el motivo.</p>
+            </div>
+ 
+        </div>
+    </section>
+
+    <section class="sect_three">
+        <div class="marcas_title">MARCAS</div>
+        <div class="marcas">
+            <div class="marca0"></div>
+            <div class="marca1"></div>
+            <div class="marca2"></div>
+            <div class="marca3"></div>
+            <div class="marca4"></div>
+            <div class="marca5"></div>
+            <div class="marca6"></div>
+            <div class="marca7"></div>
+            <div class="marca8"></div>
+            <div class="marca9"></div>
+            <div class="marca10"></div>
+            <div class="marca11"></div>
+        </div>
+    </section>
+
+    <footer>
+        
+        <div class="logo_footer">
+            <img src="https://raw.githubusercontent.com/dulceeee/imagens/29296385793543e9094b635429480dd82a5ddf6f/img/logo.jpg" alt="logo de la company">
+            <div>
+                <h2 class="company-name">Mi cachorro</h2>
+                <p class="slogan_footer">Trabajando por el cuidado de tu <br>mascota</p>
+            </div>
+        </div>
+
+        
+
+        <div class="barr_navegacion">
+            <a href="">¿Quiénes somos?</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="">Sucursales</a>
+        </div>
+
+        <div class="barr_redes">
+            <a>Contáctanos</a>
+            <a href="https://www.instagram.com/instagram/">Instragram</a>
+            <a href="https://www.facebook.com/spacaninomicachorro">Facebook</a>
+            <a href="https://vm.tiktok.com/ZMNkaxQrn/">Tik Tok</a>
+            <a href="mailto:spamicachorro@yahoo.com?">Email</a>
+        </div>
+
+    </footer>
 
     <!-- Archivos de programacion -->
     <link rel="stylesheet" href="./js/main.js" type="module">
+
 </body>
 </html>
