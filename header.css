@@ -1,0 +1,58 @@
+header{
+    width: 90%;
+    height: 8rem;
+    margin: 1rem 8rem;
+    padding: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--color4);
+
+}
+
+nav a{
+    text-decoration: none;
+    font-size: var(--text2);
+    padding: 2rem;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 6rem;
+    margin-right: 1.5rem;
+}
+
+.company-name{
+    font-size: var(--title2);
+}
+
+.singup i{
+    vertical-align: -0.2rem;
+}
+
+#icon_menu{
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.5rem;
+    position: absolute;
+    right: 2rem;
+    top: 1.6rem;
+    padding: 1rem;
+    color: var(--color3);
+    background-color: beige;
+    border-radius: 100%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: none;
+}
+

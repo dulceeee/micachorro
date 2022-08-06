@@ -1,0 +1,52 @@
+@media screen and (max-width: 1152px) {
+
+    .slogan{
+        font-size: var(--title3);
+    }
+
+    .contacto{
+        width: 20rem;
+        height: 6rem;
+        margin-top: 2rem;
+        margin-left: 0%;
+    }
+
+    .item1{
+        width: 27rem;
+        height: 41rem;
+    }
+    
+    .item2{ 
+        width: 22rem;
+        height: 31rem;
+    }
+
+    div .frase_banner{
+        width: 60rem;
+    }
+
+    div .img3{
+        right: 3.5rem;
+    }
+
+    .sabias{
+        width: 80rem;
+    }
+
+    .img4{
+        width: 24rem;
+        height: 25rem;
+        border-radius: 8rem;
+    }
+
+    .dato{
+        font-size: var(--text1);
+        padding-left: 2.5rem;
+    }
+
+    .contenido-principal__imagen {
+        width: 40rem;
+        border-radius: 8rem;
+    }
+
+    }

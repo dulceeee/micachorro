@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/ipad.css">
+    <link rel="stylesheet" href="css/mobil.css">
 
     <!-- Fonts Files -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +28,7 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
 
 </head>
 <body>
@@ -43,14 +51,17 @@
             </a>
         </nav>
 
+        <div id="icon_menu">
+            <i class="fi fi-bs-menu-dots"></i>
+        </div>
     </header>
 
     <section class="sect_one">
         <div class="presentacion">
-            <p class="slogan">Nos preocupamos <br> por el
-                cuidado de <br> de tus mascotas</p>
-            <p class="frase">Para nosotros respetar a los animales es una obligación, <br>
-                amarlos es un privilegio.</p>
+            <div class="slogan">Nos preocupamos por el
+                cuidado de tus mascotas</div>
+            <div class="frase">Para nosotros respetar a los animales es una obligación,
+                amarlos es un privilegio.</div>
             <div class="enlaces">
                 <div class="contacto">
                     <a href="tel:52998343">
@@ -99,14 +110,14 @@
 
         <div class="fact">
             <div class="title_sabias">
-                <p> ¿Sabías esto?</p>
+                 ¿Sabías esto?
             </div>
-            <div>
+            <div class="sabias">
                 <div class="img4"></div>
-                <p class="dato">Quizás alguna vez te has preguntado por qué una gata <br>
-                tiene en un mismo parto gatitos tan diferentes. La <br>
-                respuesta es que una gata puede quedar preñada de <br> 
-                varios machos en el mismo celo, de ahí el motivo.</p>
+                <div class="dato">Quizás alguna vez te has preguntado por qué una gata
+                tiene en un mismo parto gatitos tan diferentes. La
+                respuesta es que una gata puede quedar preñada de
+                varios machos en el mismo celo, de ahí el motivo.</div>
             </div>
  
         </div>
@@ -130,36 +141,95 @@
         </div>
     </section>
 
+    <div class="contenedor">
+		<main class="contenido-principal">
+			<img src="img/1.jpg" alt="Dome of the German Bundestag" class="contenido-principal__imagen">
+			<div class="contenido-principal__contenedor">
+				<h1 class="contenido-principal__titulo">Se parte de nuestra familia</h1>
+				<p class="contenido-principal__resumen">
+					Somos un equipo totalmente comprometido con el cuidado de tu mascota. Te ofrecemos
+                    los mejores servicios y atenciones. Si confías en nosotros podremo convetirnos en
+                    los mejores amigos de tu mejor amigo.
+				</p>
+			</div>
+		</main>
+
+		<div class="carousel">
+			<div class="carousel__contenedor">
+				<button aria-label="Anterior" class="carousel__anterior">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel__lista">
+					<div class="carousel__elemento">
+						<img src="img/2.jpg" alt="" class="img_carrusel">
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/3.jpg" alt="" class="img_carrusel">
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/4.jpg" alt="" class="img_carrusel">
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/5.jpg" alt="" class="img_carrusel">
+					</div>
+	
+					<div class="carousel__elemento">
+						<img src="img/6.jpg" alt="" class="img_carrusel">
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/7.jpg" alt="" class="img_carrusel">
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/8.jpg" alt="" class="img_carrusel">
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/9.jpg" alt="" class="img_carrusel">
+					</div>
+				</div>
+
+				<button aria-label="Siguiente" class="carousel__siguiente">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist" class="carousel__indicadores"></div>
+		</div>
+	</div>
+
     <footer>
         
         <div class="logo_footer">
             <img src="https://raw.githubusercontent.com/dulceeee/imagens/29296385793543e9094b635429480dd82a5ddf6f/img/logo.jpg" alt="logo de la company">
             <div>
                 <h2 class="company-name">Mi cachorro</h2>
-                <p class="slogan_footer">Trabajando por el cuidado de tu <br>mascota</p>
+                <div class="slogan_footer">Trabajando por el cuidado de tu mascota</div>
             </div>
         </div>
 
-        
-
-        <div class="barr_navegacion">
-            <a href="">¿Quiénes somos?</a>
-            <a href="servicios.html">Servicios</a>
-            <a href="">Sucursales</a>
+        <div class="enlaces_foot">
+            <div class="barr_navegacion">
+                <a href="">¿Quiénes somos?</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="">Sucursales</a>
+            </div>
+    
+            <div class="barr_redes">
+                <a>Contáctanos</a>
+                <a href="https://www.instagram.com/instagram/">Instragram</a>
+                <a href="https://www.facebook.com/spacaninomicachorro">Facebook</a>
+                <a href="https://vm.tiktok.com/ZMNkaxQrn/">Tik Tok</a>
+                <a href="mailto:spamicachorro@yahoo.com?">Email</a>
+            </div>
         </div>
 
-        <div class="barr_redes">
-            <a>Contáctanos</a>
-            <a href="https://www.instagram.com/instagram/">Instragram</a>
-            <a href="https://www.facebook.com/spacaninomicachorro">Facebook</a>
-            <a href="https://vm.tiktok.com/ZMNkaxQrn/">Tik Tok</a>
-            <a href="mailto:spamicachorro@yahoo.com?">Email</a>
-        </div>
 
     </footer>
 
     <!-- Archivos de programacion -->
-    <link rel="stylesheet" href="./js/main.js" type="module">
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
 
 </body>
 </html>
