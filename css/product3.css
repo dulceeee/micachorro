@@ -1,0 +1,8 @@
+.item3{
+    background-image: url(https://static.wixstatic.com/media/385769_556b49c44c324e059bc638abd542a16d~mv2_d_1786_1784_s_2.png/v1/fill/w_600,h_670,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/385769_556b49c44c324e059bc638abd542a16d~mv2_d_1786_1784_s_2.png);
+    background-size: contain;
+    width: 60rem;
+    height: 60rem;
+    margin-top: 10rem;
+    border-radius: 30rem 30rem;
+}

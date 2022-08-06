@@ -1,6 +1,6 @@
 .sect_one{
     width: 80%;
-    height: 78rem;
+    height: auto;
     margin: auto;
 
     display: flex;
@@ -28,6 +28,7 @@
 .info{
     margin-top: 2rem;
     font-size: var(--text1);
+    text-align: justify;
 }
 
 ul{
@@ -57,6 +58,7 @@ li{
     font-size: var(--text1);
     font-weight: 600;
     color: #fff;
+    cursor: pointer;
 
     background-color: var(--color1);
     border-radius: 1rem;
@@ -68,7 +70,7 @@ li{
 
 .sect_two{
     width: 80%;
-    height: 45rem;
+    height: auto;
     margin: auto;
 
     display: flex;
@@ -90,7 +92,7 @@ li{
 
 .sect_three{
     width: 75%;
-    height: 56rem;
+    height: auto;
     margin: auto;
 }
 
@@ -121,10 +123,12 @@ li{
 
 .img2{
     width: 25rem;
+    cursor: pointer;
 }
 
 .img3{
     width: 22.5rem;
+    cursor: pointer;
 }
 
 .product_1 div{
@@ -140,6 +144,7 @@ li{
     font-size: var(--text3);
     border-radius: 3rem;
     background-color: var(--color1);
+    cursor: pointer;
 
     display: flex;
     align-items: center;

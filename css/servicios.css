@@ -241,6 +241,7 @@
     font-size: var(--text3);
     border-radius: 3rem;
     background-color: var(--color1);
+    cursor: pointer;
 
     display: flex;
     align-items: center;

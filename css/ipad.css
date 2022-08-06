@@ -1,0 +1,179 @@
+@media screen and (max-width: 768px) {
+
+    header{
+        width: auto;
+        height: 17rem;
+        margin: 0.5rem 8rem;
+        padding: 3rem;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 2.5rem;
+    }
+
+    nav a{
+        font-size: 1.2rem;
+    }
+
+    .sect_one{
+        width: 60.8rem;
+        padding-bottom: 4rem;
+    }
+
+    .sect_two{
+        width: 60.8rem;
+    }
+
+    .presentacion{
+        width: 30rem;
+        height: auto;
+        margin-top: 10rem;
+        padding-right: 1rem;
+    }
+
+    .slogan{
+        font-size: 3rem;
+    }
+
+    .frase{
+        font-size: 1.3rem;
+    }
+
+    .imagens{
+        width: 32rem;
+        height: auto;
+    }
+
+    .item1{
+        width: 17rem;
+        height: 27rem;
+        margin-top: 6rem;
+        margin-right: 1rem;
+    }
+    
+    .item2{ 
+        width: 14rem;
+        height: 22rem;
+        margin-top: 4rem;
+    }   
+
+    .enlaces{
+        flex-direction: column;
+    }
+
+    .contacto{
+        width: 27rem;
+        height: 4rem;
+        margin-bottom: 0%;
+    }
+
+    .contacto a{
+        font-size: var(--text2);
+    }
+
+    .redes{
+        width: 27rem;
+        height: 4rem;
+        margin-top: 1.5rem;
+    
+        font-size: var(--text2);
+        justify-content: center; 
+    }
+
+    div .frase_banner{
+        width: 38rem;
+        margin-top: 9rem;
+    }
+
+    .company_nombre{
+        font-size: var(--text3);
+    }
+
+    .phrase{
+        font-size: var(--text2);
+    }
+
+    div .img1{
+        width: 20rem;
+        height: 10rem;
+        margin-top: 7rem;
+    }
+
+    div .imagens2{
+        width: 22rem;
+        margin-top: 7rem;
+    }
+
+    div .img2{
+        width: 10rem;
+        height: 10rem;
+
+    }
+    
+    div .img3{
+        width: 10rem;
+        height: 10rem;
+
+        right: 8rem;
+
+    }
+
+    .fact{
+        margin-top: 8rem;
+    } 
+
+    .sabias{
+        width: 50rem;
+    }
+
+    .title_sabias{
+        padding-left: 7rem;
+    
+        font-size: var(--text1);
+    }
+
+    .img4{
+        width: 24rem;
+        height: 22rem;
+        border-radius: 6rem;
+    }
+
+    .dato{
+        font-size: var(--text3);
+        padding-left: 2.5rem;
+    }
+
+    .contenido-principal__imagen {
+        width: 30rem;
+        border-radius: 6rem;
+    }
+
+    .contenido-principal__titulo {
+        font-size: var(--text1);
+        font-weight: 700;
+    }
+
+    .contenido-principal__resumen {
+        font-size: var(--text3);
+        text-align: justify;
+    }
+
+    .marcas{
+        padding: 5rem;
+    }
+
+    .marcas div{
+        width: 20rem;
+        height: 20rem;
+
+        margin-bottom: 0;
+    }
+
+    .contenido-principal{
+        margin-top: -2rem;
+    }
+
+    }
