@@ -1,0 +1,30 @@
+[
+    {
+      "precio": "Q40.95",
+      "id": 1,
+      "title": "Monello Dog Adulto",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0269/3113/4507/products/1_78f60e87-09ca-4a4a-b9eb-9fd60a6de773.png?v=1651897019",
+      "redirection":"product1.html"
+    },
+    {
+      "precio": "Q46.00",
+      "id": 2,
+      "title": "Monello Cat Adulto",
+      "thumbnailUrl": "https://biocenter.com.sa/image/cache/catalog/images/1646333492Monello_Gatos_Adultos_Salm%C3%A3o_Frango_esquerdo-550x550.png",
+      "redirection":"product2.html"
+    },
+    {
+      "precio": "Q25.00",
+      "id": 3,
+      "title": "Barkys Biscuits",
+      "thumbnailUrl": "https://static.wixstatic.com/media/385769_556b49c44c324e059bc638abd542a16d~mv2_d_1786_1784_s_2.png/v1/fill/w_600,h_670,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/385769_556b49c44c324e059bc638abd542a16d~mv2_d_1786_1784_s_2.png",
+      "redirection":"product3.html"
+    },
+    {
+      "precio": "Q325.00",
+      "id": 4,
+      "title": "Credelio Plus",
+      "thumbnailUrl": "https://cdn11.bigcommerce.com/s-ke1v21/images/stencil/2048x2048/products/438/2092/Credelio_Orange_6_Pack__88325.1647218835.png?c=2",
+      "redirection":"product4.html"
+    }
+  ]
