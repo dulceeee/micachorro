@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/servicios.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/data.css">
     
         <!-- Fonts Files -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,52 +95,38 @@
         </div>
     </section>
 
-    <section class="sect_four">
-        <div class="petshop">
-            <p class="shop_title">PetShop</p>
-            <ul>
-                <li>Todo</li>
-                <li>Alimento</li>
-                <li>Juguetes</li>
-                <li>Accesorios</li>
-                <li>Snacks</li>
-            </ul>
-            <div class="products">
-                <div class="product_1">
-                    <a href="product1.html">
-                        <img class="img2" src="https://cdn.shopify.com/s/files/1/0269/3113/4507/products/1_78f60e87-09ca-4a4a-b9eb-9fd60a6de773.png?v=1651897019" alt="">
-                    </a>
-                    <div>Q40.95</div>
-                    <div>Monello Dog Adulto</div>
-                    <div class="cart">añadir al carrito</div>
-                </div>
-                <div class="product_1">
-                    <a href="product2.html">
-                        <img class="img2" src="https://biocenter.com.sa/image/cache/catalog/images/1646333492Monello_Gatos_Adultos_Salm%C3%A3o_Frango_esquerdo-550x550.png" alt="">
-                    </a>
-                    <div>Q46.00</div>
-                    <div>Monello Cat Adulto</div>
-                    <div class="cart">añadir al carrito</div>
-                </div>
-                <div class="product_1">
-                    <a href="product3.html">
-                        <img class="img3" src="https://static.wixstatic.com/media/385769_556b49c44c324e059bc638abd542a16d~mv2_d_1786_1784_s_2.png/v1/fill/w_600,h_670,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/385769_556b49c44c324e059bc638abd542a16d~mv2_d_1786_1784_s_2.png" alt="">
-                    </a>
-                    <div>Q25.00</div>
-                    <div>Barkys Biscuits</div>
-                    <div class="cart">añadir al carrito</div>
-                </div>
-                <div class="product_1">
-                    <a href="product4.html">
-                        <img class="img2" src="https://cdn11.bigcommerce.com/s-ke1v21/images/stencil/2048x2048/products/438/2092/Credelio_Orange_6_Pack__88325.1647218835.png?c=2" alt="">
-                    </a>
-                    <div>Q325.00</div>
-                    <div>Credelio Plus</div>
-                    <div class="cart">añadir al carrito</div>
-                </div>
+    <section class="five">
+
+        <div class="cont_blue">
+            <div class="container">
+                <h1>PetShop</h1>
+                <ul>
+                    <li>Todo</li>
+                    <li>Alimento</li>
+                    <li>Juguetes</li>
+                    <li>Accesorios</li>
+                    <li>Snacks</li>
+                </ul>
+                <div class="row" id="items"></div>
             </div>
-            <p class="all_products">Ver todos los productos</p>
+    
+            <template id="template-card">
+                <div class="col-12 mb-2 col-md-4">
+                  <div class="card">
+                    <a href="">
+                        <img src="" alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                      <p>precio</p>
+                      <h5>Titulo</h5>
+                      <button class="btn btn-dark">añadir al carrito</button>
+                    </div>
+                  </div>
+                </div>
+              </template>
+              <div class="all_product">Ver todos los productos</div>
         </div>
+
     </section>
 
     <footer>
@@ -169,6 +156,9 @@
         </div>
 
     </footer>
+
+
+    <script src="js/data.js"></script>
     
 </body>
 </html>
